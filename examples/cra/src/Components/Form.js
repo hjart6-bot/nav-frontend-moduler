@@ -5,6 +5,7 @@ import { CheckboxGruppe, Checkbox } from "nav-frontend-skjema";
 import Page from "./Page";
 import Tabs from "nav-frontend-tabs";
 import Panel from "nav-frontend-paneler";
+import { Knapp } from "nav-frontend-knapper";
 
 function Form() {
   return (
@@ -39,6 +40,9 @@ function Form() {
             <Checkbox label={"Midten"} />
             <Checkbox label={"Fremst"} />
           </CheckboxGruppe>
+        </p>
+        <p>
+          <Knapp>Normal</Knapp>
         </p>
       </Panel>
     </Page>
